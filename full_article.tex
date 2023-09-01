@@ -14,9 +14,9 @@
 \hypersetup{colorlinks=false,pdfborder={0 0 0}}
 \usepackage{etoolbox}
 \makeatletter
-\patchcmd\@combinedblfloats{\box\@outputbox}{\unvbox\@outputbox}{}{%
-  \errmessage{\noexpand\@combinedblfloats could not be patched}%
-}%
+%\patchcmd\@combinedblfloats{\box\@outputbox}{\unvbox\@outputbox}{}{%
+%  \errmessage{\noexpand\@combinedblfloats could not be patched}%
+%}%
 \makeatother
 % You can conditionalize code for latexml or normal latex using this.
 \newif\iflatexml\latexmlfalse
@@ -38,22 +38,22 @@
 \else
 % The commands below will only change the exported PDF. Edit or remove as needed
 
-\paperfield{Field of the paper}
-\abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
-\corraddress{Author One PhD, Department, Institution, City, State or Province, Postal Code, Country}
-\corremail{correspondingauthor@email.com}
+%\paperfield{Field of the paper}
+%\abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
+\corraddress{5004 General Eisenhower Dr, Murfreesboro, TN, 37129, USA}
+\corremail{fhilosophierr@gmail.com}
 \presentadd{Department, Institution, City, State or Province, Postal Code, Country}
-\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
+%\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
 \fi
 
 %---
 
-\papertype{Original Article}
+%\papertype{Original Article}
 
-\title{International Journal of Quantum Chemistry LaTeX Template}
+\title{}
 
 
-\author[1]{Alberto Pepe}
+\author[1]{Fenglai Liu}
 
 \affil[1]{Authorea}
 
@@ -71,11 +71,102 @@ This is a LaTeX template designed for use by the \textbf{International Journal o
 \textbf{Keywords} --- keyword 1, \emph{keyword 2}, keyword 3, keyword 4, keyword 5, keyword 6, keyword 7.%
 \end{abstract}%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% mathematical details
+%
+% flow chart to do the integrals
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Introduction of four-centers integrals for Coulomb and exchange}
+
+
+ 
+In quantum chemistry the basis functions are fundamental to a molecular QM calculation. Here
+in this our discussion is focused on the Cartesian Gaussian form of functions: 
+\begin{equation}\label{work:1}
+         \chi = x^{i}y^{j}z^{k}e^{-\alpha r^{2}} \quad \text{.}
+\end{equation}
+In practice a basis function $\phi$ is generally a linear combination of Cartesian 
+Gaussian functions:
+\begin{equation}\label{work:2}
+         \phi = \sum_{n}d_{n}\chi_{n} \quad \text{,}
+\end{equation}
+where the coefficient $d_{n}$ is an pre-optimized constant. Upon the Gaussian form basis functions, The fundamental Coulomb and HF exchange energies can be expressed as:
+\begin{align}
+ \label{eq:1}
+         E_{Coulomb}  &= \frac{1}{2}\sum_{\mu\nu}P_{\mu\nu}
+ \sum_{\lambda\eta}P_{\lambda\eta}\int dr dr^{'}\frac{\phi_{\mu}(r)\phi_{\nu}(r)
+ \phi_{\lambda}(r^{'})\phi_{\eta}(r^{'})} {|r - r^{'}|} \nonumber \\
+         E_{Exchange} &= -\frac{1}{2}\sum_{\mu\nu}P_{\mu\nu}
+ \sum_{\lambda\eta}P_{\lambda\eta}\int dr dr^{'}\frac{\phi_{\mu}(r)\phi_{\lambda}(r)
+ \phi_{\nu}(r^{'})\phi_{\eta}(r^{'})} {|r - r^{'}|} \quad \text{.}
+\end{align}
+$r$ and $r^{'}$ characterize the positions for the two electrons.
+$\phi$ is a basis function, and $\mu$, $\nu$, $\lambda$ and $\eta$ are the
+indexes for the basis functions. $P_{\mu\nu}$ is the density
+matrix.
+
+The computation the Coulomb and HF exchange becomes the most time-consuming
+part in QM applications is because the electron repulsion integral(ERI) in Eq.
+\ref{eq:1} involves four indexes, so theoretically it generally scales as
+$N^{4}$ (N is the size of basis functions).  Furthermore since each basis
+function is also a contraction of Gaussian functions, such ERI calculation
+actually involves eight loops. 
+
+In practice the computation of ERI is usually performed on shell-quartet,
+where all of ERIs coming from the same four-shell set are calculated together
+so that to save the computational cost. The shell-quartet is usually abbreviated 
+as $(ab|cd)$, where $a$, $b$, $c$ and $d$ etc. represent the general shells data on
+the positions of $\mu$, $\nu$, $\lambda$ and $\eta$ in Eq. \ref{eq:1}.
+In particular we usually use ``0'' to represent the S shell($L=0$). For example,
+$(e0|f0)$ means the shells data on $\nu$ and $\eta$ positions are S type of shells.
+
+The most efficient algorithm for directly performing ERI calculation is to use
+recurrence relations\cite{gill1994molecular}, and the HGP algorithm\cite{HGP}
+provides the most efficient recurrence relations for the general ERI
+derivation.  The calculation of ERI in the HGP algorithm can be general divided
+into two steps.  The first step is to perform vertical recurrence
+relations(VRR) which transform the directly computed auxiliary integrals
+$(00|00)^{m}$ into the shell-quartets in the form of $(e0|f0)$.  The second step is
+to conduct horizontal recurrence relations(HRR), and in this step the intermediate
+shell-quartets $(e0|f0)$ will be finally transformed to result shell-quartet
+$(ab|cd)$.
+
+Generally the cost of ERI calculation(approximated FLOPS cost) scales at
+$(L+1.39)^{8}$\cite{shao2000improved}.  Due to such rapid increase of the cost
+the implementation of ERI on the MIC platform is needed to be divided into two
+parts. The first part is the implementation for low angular momentum basis
+functions including those in S, P and D types.  The second part is for basis
+functions with angular momentum higher than D.
 
 
 
-\section{First Level Heading}
-Please lay out your article using the section headings and example objects below, and remember to delete all help text prior to submitting your article to the journal.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GPU implementation 
+%
+% with integral or shell quartet?
+%
+% general strategy (TLP or ILP)?
+%
+% shared memory bank conflict
+%
+% choose thread/block size
+%
+% no use of local storage, maximumly using the register/L1
+%
+% how many shell quartets averagely computed per second
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{GPU implementation of four-centers integrals}
+
+For the ERIs in \ref{eq:1} the traditional way on CPU is to compute all of integrals together in the same shell quartet. For example the shell quartet $(PP|PP)$ is composed by four $P$ shells and it consists of 81 ERIs. The benefit to compute ERIs through the shell quartet is to save FLOPS since different ERIs in the same shell quartet may share the intermediate results during the integral computation. 
+
+For GPU implementation because of the limitted resource of register and L1 cache  
+
 
 \subsection{Second Level Heading}
 If data, scripts or other artefacts used to generate the analyses presented in the article are available via a publicly available data repository, please include a reference to the location of the material within the article.
@@ -109,19 +200,7 @@ The significant problems we have cannot be solved at the same level of thinking 
 
 \subparagraph{Fifth level heading}
 Measurements should be given in SI or SI-derived units.\selectlanguage{english}
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=0.84\columnwidth]{figures/example-img/example-img}
-\caption{{Although we encourage authors to send us the highest-quality figures
-possible, for peer-review purposes we are can accept a wide variety of
-formats, sizes, and resolutions. Legends should be concise but
-comprehensive -- the figure and its legend must be understandable
-without reference to the text. Include definitions of any symbols used
-and define/explain all abbreviations and units of measurement.
-{\label{377733}}%
-}}
-\end{center}
-\end{figure}
+
 
 Chemical substances should be referred to by the generic name only. Trade names should not be used. Drugs should be referred to by their generic names. If proprietary drugs have been used in the study, refer to these by their generic name, mentioning the proprietary name, and the name and location of the manufacturer, in parentheses.\selectlanguage{english}
 \begin{table}
@@ -139,6 +218,32 @@ Age at testing & 38 & 58 & 504.48 & 58 ms\\
 \end{tabular}
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 
+% 
+% raw integral and digestion together
+% 
+% compare with GPU implementation
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Mix of GPU and CPU implementations for a batch work}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% one ket to many bra shell pairs
+% 
+% raw integral and digestion together
+% 
+% compare with GPU implementation
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CPU implementation of four-centers integrals}
+
 
 \section*{Acknowledgements}
 Acknowledgements should include contributions from anyone who does not meet the criteria for authorship (for example, to recognize contributions from people who provided technical help, collation of data, writing assistance, acquisition of funding, or a department chairperson who provided general support), as well as any funding or other support information.
@@ -147,7 +252,6 @@ Acknowledgements should include contributions from anyone who does not meet the 
 You may be asked to provide a conflict of interest statement during the submission process. Please check the journal's author guidelines for details on what to include in this section. Please ensure you liaise with all co-authors to confirm agreement with the final statement.
 
 \selectlanguage{english}
-\FloatBarrier
 \bibliography{bibliography/converted_to_latex.bib%
 }
 

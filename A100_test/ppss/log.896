@@ -1,0 +1,1530 @@
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Coulomb, N_BLOCKS_PER_WARP 274 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 106057728
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 0
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 274
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 118368
+nTotalSQ: 106057728
+nTotalThreads: 106057728
+oneThreadDenMtrxLen: 10
+nTotalDenMtrxVecSize: 1060577280
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 15
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 10
+max global data length  : 2015096832
+max data block length   : 1060577280
+max ket sp data length  : 9
+max ket sp index length : 118368
+for the current GPU card the free memory is 41850699776 byte and total is 42298834944 byte
+Time taken by CPU part: 1568 milliseconds
+Time taken by CPU -> GPU transfer part: 623 milliseconds
+for b1_k1 the LCode of Coulomb is 1001, time in milliseconds: 24.61286 ms
+Time taken by GPU -> CPU transfer part: 373 milliseconds
+for the current GPU card the free memory is 41802465280 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3773 milliseconds
+Time taken by all of codes: 5990 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Coulomb, N_BLOCKS_PER_WARP 137 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 1
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 137
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 59184
+nTotalSQ: 106057728
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 19
+nTotalDenMtrxVecSize: 1007548416
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 19
+max global data length  : 1962067968
+max data block length   : 1007548416
+max ket sp data length  : 9
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1274 milliseconds
+Time taken by CPU -> GPU transfer part: 607 milliseconds
+for b1_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.08192 ms
+Time taken by GPU -> CPU transfer part: 360 milliseconds
+for the current GPU card the free memory is 41804562432 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3650 milliseconds
+Time taken by all of codes: 5532 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Coulomb, N_BLOCKS_PER_WARP 91 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 105670656 nTotalThreads 35223552
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 2
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 91
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 39312
+nTotalSQ: 105670656
+nTotalThreads: 35223552
+oneThreadDenMtrxLen: 28
+nTotalDenMtrxVecSize: 986259456
+nBraSPDataLen: 951035904
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 28
+max global data length  : 1937295360
+max data block length   : 986259456
+max ket sp data length  : 9
+max ket sp index length : 39312
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1199 milliseconds
+Time taken by CPU -> GPU transfer part: 600 milliseconds
+for b1_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.09318 ms
+Time taken by GPU -> CPU transfer part: 350 milliseconds
+for the current GPU card the free memory is 41804562432 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3593 milliseconds
+Time taken by all of codes: 5393 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Coulomb, N_BLOCKS_PER_WARP 68 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 105283584 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 3
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 68
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 29376
+nTotalSQ: 105283584
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 37
+nTotalDenMtrxVecSize: 973873152
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 37
+max global data length  : 1921425408
+max data block length   : 973873152
+max ket sp data length  : 9
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1179 milliseconds
+Time taken by CPU -> GPU transfer part: 594 milliseconds
+for b1_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.10138 ms
+Time taken by GPU -> CPU transfer part: 344 milliseconds
+for the current GPU card the free memory is 41806659584 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3549 milliseconds
+Time taken by all of codes: 5323 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Coulomb, N_BLOCKS_PER_WARP 54 nSQPerT is 5 nTPerBlock is 896 nTotalSQ is 104509440 nTotalThreads 20901888
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 4 and testing factor is 4
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 54
+nSQPerThread: 5
+nSQPerBlock: 4480
+nBlocks: 23328
+nTotalSQ: 104509440
+nTotalThreads: 20901888
+oneThreadDenMtrxLen: 46
+nTotalDenMtrxVecSize: 961486848
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 46
+max global data length  : 1902071808
+max data block length   : 961486848
+max ket sp data length  : 9
+max ket sp index length : 23328
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1157 milliseconds
+Time taken by CPU -> GPU transfer part: 588 milliseconds
+for b1_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.11059 ms
+Time taken by GPU -> CPU transfer part: 338 milliseconds
+for the current GPU card the free memory is 41806659584 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3530 milliseconds
+Time taken by all of codes: 5277 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Exchange, N_BLOCKS_PER_WARP 274 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 106057728
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 0
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 274
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 118368
+nTotalSQ: 106057728
+nTotalThreads: 106057728
+oneThreadDenMtrxLen: 12
+nTotalDenMtrxVecSize: 1272692736
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 12
+max global data length  : 2227212288
+max data block length   : 1272692736
+max ket sp data length  : 9
+max ket sp index length : 118368
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2153 milliseconds
+Time taken by CPU -> GPU transfer part: 686 milliseconds
+for b1_k1 the LCode of Exchange is 1001, time in milliseconds: 30.40256 ms
+Time taken by GPU -> CPU transfer part: 472 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4283 milliseconds
+Time taken by all of codes: 7154 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Exchange, N_BLOCKS_PER_WARP 137 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 1
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 137
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 59184
+nTotalSQ: 106057728
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 24
+nTotalDenMtrxVecSize: 1272692736
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 24
+max global data length  : 2227212288
+max data block length   : 1272692736
+max ket sp data length  : 9
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2059 milliseconds
+Time taken by CPU -> GPU transfer part: 688 milliseconds
+for b1_k1 the LCode of Exchange is 1001, time in milliseconds: 0.08704 ms
+Time taken by GPU -> CPU transfer part: 467 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4291 milliseconds
+Time taken by all of codes: 7040 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Exchange, N_BLOCKS_PER_WARP 91 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 105670656 nTotalThreads 35223552
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 2
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 91
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 39312
+nTotalSQ: 105670656
+nTotalThreads: 35223552
+oneThreadDenMtrxLen: 36
+nTotalDenMtrxVecSize: 1268047872
+nBraSPDataLen: 951035904
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 36
+max global data length  : 2219083776
+max data block length   : 1268047872
+max ket sp data length  : 9
+max ket sp index length : 39312
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2032 milliseconds
+Time taken by CPU -> GPU transfer part: 685 milliseconds
+for b1_k1 the LCode of Exchange is 1001, time in milliseconds: 0.08909 ms
+Time taken by GPU -> CPU transfer part: 465 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4282 milliseconds
+Time taken by all of codes: 7000 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Exchange, N_BLOCKS_PER_WARP 68 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 105283584 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 3
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 68
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 29376
+nTotalSQ: 105283584
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 48
+nTotalDenMtrxVecSize: 1263403008
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 48
+max global data length  : 2210955264
+max data block length   : 1263403008
+max ket sp data length  : 9
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2017 milliseconds
+Time taken by CPU -> GPU transfer part: 683 milliseconds
+for b1_k1 the LCode of Exchange is 1001, time in milliseconds: 0.10957 ms
+Time taken by GPU -> CPU transfer part: 454 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4261 milliseconds
+Time taken by all of codes: 6962 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_k1 Exchange, N_BLOCKS_PER_WARP 54 nSQPerT is 5 nTPerBlock is 896 nTotalSQ is 104509440 nTotalThreads 20901888
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 4 and testing factor is 4
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 54
+nSQPerThread: 5
+nSQPerBlock: 4480
+nBlocks: 23328
+nTotalSQ: 104509440
+nTotalThreads: 20901888
+oneThreadDenMtrxLen: 60
+nTotalDenMtrxVecSize: 1254113280
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 60
+max global data length  : 2194698240
+max data block length   : 1254113280
+max ket sp data length  : 9
+max ket sp index length : 23328
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1993 milliseconds
+Time taken by CPU -> GPU transfer part: 678 milliseconds
+for b1_k1 the LCode of Exchange is 1001, time in milliseconds: 0.11674 ms
+Time taken by GPU -> CPU transfer part: 457 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4236 milliseconds
+Time taken by all of codes: 6908 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Coulomb, N_BLOCKS_PER_WARP 137 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 53028864 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 10
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 137
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 59184
+nTotalSQ: 53028864
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 10
+nTotalDenMtrxVecSize: 530288640
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 10
+max global data length  : 1484808192
+max data block length   : 530288640
+max ket sp data length  : 9
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1051 milliseconds
+Time taken by CPU -> GPU transfer part: 461 milliseconds
+for bm_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.32563 ms
+Time taken by GPU -> CPU transfer part: 162 milliseconds
+for the current GPU card the free memory is 41819242496 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2484 milliseconds
+Time taken by all of codes: 3997 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Coulomb, N_BLOCKS_PER_WARP 68 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 11
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 68
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 29376
+nTotalSQ: 52641792
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 19
+nTotalDenMtrxVecSize: 500097024
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 19
+max global data length  : 1447649280
+max data block length   : 500097024
+max ket sp data length  : 9
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 936 milliseconds
+Time taken by CPU -> GPU transfer part: 449 milliseconds
+for bm_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.08499 ms
+Time taken by GPU -> CPU transfer part: 154 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2406 milliseconds
+Time taken by all of codes: 3792 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Coulomb, N_BLOCKS_PER_WARP 45 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 52254720 nTotalThreads 17418240
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 12
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 45
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 19440
+nTotalSQ: 52254720
+nTotalThreads: 17418240
+oneThreadDenMtrxLen: 28
+nTotalDenMtrxVecSize: 487710720
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 28
+max global data length  : 1428295680
+max data block length   : 487710720
+max ket sp data length  : 9
+max ket sp index length : 19440
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 912 milliseconds
+Time taken by CPU -> GPU transfer part: 443 milliseconds
+for bm_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.11366 ms
+Time taken by GPU -> CPU transfer part: 151 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2377 milliseconds
+Time taken by all of codes: 3733 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Coulomb, N_BLOCKS_PER_WARP 34 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 13160448
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 13
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 34
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 14688
+nTotalSQ: 52641792
+nTotalThreads: 13160448
+oneThreadDenMtrxLen: 37
+nTotalDenMtrxVecSize: 486936576
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 37
+max global data length  : 1434488832
+max data block length   : 486936576
+max ket sp data length  : 9
+max ket sp index length : 14688
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 920 milliseconds
+Time taken by CPU -> GPU transfer part: 443 milliseconds
+for bm_k1 the LCode of Coulomb is 1001, time in milliseconds: 0.09933 ms
+Time taken by GPU -> CPU transfer part: 151 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2405 milliseconds
+Time taken by all of codes: 3769 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Exchange, N_BLOCKS_PER_WARP 137 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 53028864 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 10
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 137
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 59184
+nTotalSQ: 53028864
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 12
+nTotalDenMtrxVecSize: 636346368
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 12
+max global data length  : 1590865920
+max data block length   : 636346368
+max ket sp data length  : 9
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1346 milliseconds
+Time taken by CPU -> GPU transfer part: 494 milliseconds
+for bm_k1 the LCode of Exchange is 1001, time in milliseconds: 0.09114 ms
+Time taken by GPU -> CPU transfer part: 205 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2756 milliseconds
+Time taken by all of codes: 4596 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Exchange, N_BLOCKS_PER_WARP 68 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 11
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 68
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 29376
+nTotalSQ: 52641792
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 24
+nTotalDenMtrxVecSize: 631701504
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 24
+max global data length  : 1579253760
+max data block length   : 631701504
+max ket sp data length  : 9
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1332 milliseconds
+Time taken by CPU -> GPU transfer part: 490 milliseconds
+for bm_k1 the LCode of Exchange is 1001, time in milliseconds: 0.08192 ms
+Time taken by GPU -> CPU transfer part: 199 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2744 milliseconds
+Time taken by all of codes: 4567 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Exchange, N_BLOCKS_PER_WARP 45 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 52254720 nTotalThreads 17418240
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 12
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 45
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 19440
+nTotalSQ: 52254720
+nTotalThreads: 17418240
+oneThreadDenMtrxLen: 36
+nTotalDenMtrxVecSize: 627056640
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 36
+max global data length  : 1567641600
+max data block length   : 627056640
+max ket sp data length  : 9
+max ket sp index length : 19440
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1327 milliseconds
+Time taken by CPU -> GPU transfer part: 484 milliseconds
+for bm_k1 the LCode of Exchange is 1001, time in milliseconds: 0.10035 ms
+Time taken by GPU -> CPU transfer part: 200 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2717 milliseconds
+Time taken by all of codes: 4529 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_k1 Exchange, N_BLOCKS_PER_WARP 34 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 13160448
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 13
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 34
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 14688
+nTotalSQ: 52641792
+nTotalThreads: 13160448
+oneThreadDenMtrxLen: 48
+nTotalDenMtrxVecSize: 631701504
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 1
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 9
+single SQ comp space    : 0
+one thread denMtrx Block: 48
+max global data length  : 1579253760
+max data block length   : 631701504
+max ket sp data length  : 9
+max ket sp index length : 14688
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1352 milliseconds
+Time taken by CPU -> GPU transfer part: 489 milliseconds
+for bm_k1 the LCode of Exchange is 1001, time in milliseconds: 0.10547 ms
+Time taken by GPU -> CPU transfer part: 202 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2733 milliseconds
+Time taken by all of codes: 4576 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Coulomb, N_BLOCKS_PER_WARP 274 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 106057728
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 20
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 274
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 118368
+nTotalSQ: 106057728
+nTotalThreads: 106057728
+oneThreadDenMtrxLen: 10
+nTotalDenMtrxVecSize: 1060577280
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 15
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 10
+max global data length  : 2015096832
+max data block length   : 1060577280
+max ket sp data length  : 18
+max ket sp index length : 118368
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1577 milliseconds
+Time taken by CPU -> GPU transfer part: 623 milliseconds
+for b1_km the LCode of Coulomb is 1001, time in milliseconds: 0.33075 ms
+Time taken by GPU -> CPU transfer part: 370 milliseconds
+for the current GPU card the free memory is 41802465280 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3776 milliseconds
+Time taken by all of codes: 5979 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Coulomb, N_BLOCKS_PER_WARP 137 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 21
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 137
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 59184
+nTotalSQ: 106057728
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 19
+nTotalDenMtrxVecSize: 1007548416
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 19
+max global data length  : 1962067968
+max data block length   : 1007548416
+max ket sp data length  : 18
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1288 milliseconds
+Time taken by CPU -> GPU transfer part: 607 milliseconds
+for b1_km the LCode of Coulomb is 1001, time in milliseconds: 0.10342 ms
+Time taken by GPU -> CPU transfer part: 360 milliseconds
+for the current GPU card the free memory is 41804562432 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3650 milliseconds
+Time taken by all of codes: 5547 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Coulomb, N_BLOCKS_PER_WARP 91 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 105670656 nTotalThreads 35223552
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 22
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 91
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 39312
+nTotalSQ: 105670656
+nTotalThreads: 35223552
+oneThreadDenMtrxLen: 28
+nTotalDenMtrxVecSize: 986259456
+nBraSPDataLen: 951035904
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 28
+max global data length  : 1937295360
+max data block length   : 986259456
+max ket sp data length  : 18
+max ket sp index length : 39312
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1216 milliseconds
+Time taken by CPU -> GPU transfer part: 600 milliseconds
+for b1_km the LCode of Coulomb is 1001, time in milliseconds: 0.08602 ms
+Time taken by GPU -> CPU transfer part: 350 milliseconds
+for the current GPU card the free memory is 41804562432 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3595 milliseconds
+Time taken by all of codes: 5412 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Coulomb, N_BLOCKS_PER_WARP 68 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 105283584 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 23
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 68
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 29376
+nTotalSQ: 105283584
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 37
+nTotalDenMtrxVecSize: 973873152
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 14
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 37
+max global data length  : 1921425408
+max data block length   : 973873152
+max ket sp data length  : 18
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1183 milliseconds
+Time taken by CPU -> GPU transfer part: 591 milliseconds
+for b1_km the LCode of Coulomb is 1001, time in milliseconds: 0.09728 ms
+Time taken by GPU -> CPU transfer part: 345 milliseconds
+for the current GPU card the free memory is 41806659584 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 3579 milliseconds
+Time taken by all of codes: 5354 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Exchange, N_BLOCKS_PER_WARP 274 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 106057728
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 20
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 274
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 118368
+nTotalSQ: 106057728
+nTotalThreads: 106057728
+oneThreadDenMtrxLen: 12
+nTotalDenMtrxVecSize: 1272692736
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 12
+max global data length  : 2227212288
+max data block length   : 1272692736
+max ket sp data length  : 18
+max ket sp index length : 118368
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2148 milliseconds
+Time taken by CPU -> GPU transfer part: 688 milliseconds
+for b1_km the LCode of Exchange is 1001, time in milliseconds: 0.08499 ms
+Time taken by GPU -> CPU transfer part: 467 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4294 milliseconds
+Time taken by all of codes: 7131 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Exchange, N_BLOCKS_PER_WARP 137 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 106057728 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 21
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 137
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 59184
+nTotalSQ: 106057728
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 24
+nTotalDenMtrxVecSize: 1272692736
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 24
+max global data length  : 2227212288
+max data block length   : 1272692736
+max ket sp data length  : 18
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2049 milliseconds
+Time taken by CPU -> GPU transfer part: 688 milliseconds
+for b1_km the LCode of Exchange is 1001, time in milliseconds: 0.09728 ms
+Time taken by GPU -> CPU transfer part: 467 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4295 milliseconds
+Time taken by all of codes: 7033 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Exchange, N_BLOCKS_PER_WARP 91 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 105670656 nTotalThreads 35223552
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 22
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 91
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 39312
+nTotalSQ: 105670656
+nTotalThreads: 35223552
+oneThreadDenMtrxLen: 36
+nTotalDenMtrxVecSize: 1268047872
+nBraSPDataLen: 951035904
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 36
+max global data length  : 2219083776
+max data block length   : 1268047872
+max ket sp data length  : 18
+max ket sp index length : 39312
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2029 milliseconds
+Time taken by CPU -> GPU transfer part: 683 milliseconds
+for b1_km the LCode of Exchange is 1001, time in milliseconds: 0.09830 ms
+Time taken by GPU -> CPU transfer part: 465 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4269 milliseconds
+Time taken by all of codes: 6983 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+b1_km Exchange, N_BLOCKS_PER_WARP 68 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 105283584 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 23
+the base number N_BLOCKS_PER_WARP0: 274
+number of cycles that each thread is going to do: 68
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 29376
+nTotalSQ: 105283584
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 48
+nTotalDenMtrxVecSize: 1263403008
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 16
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 1
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 9
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 48
+max global data length  : 2210955264
+max data block length   : 1263403008
+max ket sp data length  : 18
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 2021 milliseconds
+Time taken by CPU -> GPU transfer part: 683 milliseconds
+for b1_km the LCode of Exchange is 1001, time in milliseconds: 0.09728 ms
+Time taken by GPU -> CPU transfer part: 454 milliseconds
+for the current GPU card the free memory is 41796173824 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 4261 milliseconds
+Time taken by all of codes: 6966 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Coulomb, N_BLOCKS_PER_WARP 137 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 53028864 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 30
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 137
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 59184
+nTotalSQ: 53028864
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 10
+nTotalDenMtrxVecSize: 530288640
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 10
+max global data length  : 1484808192
+max data block length   : 530288640
+max ket sp data length  : 18
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1057 milliseconds
+Time taken by CPU -> GPU transfer part: 461 milliseconds
+for bm_km the LCode of Coulomb is 1001, time in milliseconds: 0.41882 ms
+Time taken by GPU -> CPU transfer part: 162 milliseconds
+for the current GPU card the free memory is 41819242496 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2490 milliseconds
+Time taken by all of codes: 4010 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Coulomb, N_BLOCKS_PER_WARP 68 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 31
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 68
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 29376
+nTotalSQ: 52641792
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 19
+nTotalDenMtrxVecSize: 500097024
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 19
+max global data length  : 1447649280
+max data block length   : 500097024
+max ket sp data length  : 18
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 937 milliseconds
+Time taken by CPU -> GPU transfer part: 450 milliseconds
+for bm_km the LCode of Coulomb is 1001, time in milliseconds: 0.09421 ms
+Time taken by GPU -> CPU transfer part: 154 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2430 milliseconds
+Time taken by all of codes: 3817 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Coulomb, N_BLOCKS_PER_WARP 45 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 52254720 nTotalThreads 17418240
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 32
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 45
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 19440
+nTotalSQ: 52254720
+nTotalThreads: 17418240
+oneThreadDenMtrxLen: 28
+nTotalDenMtrxVecSize: 487710720
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 28
+max global data length  : 1428295680
+max data block length   : 487710720
+max ket sp data length  : 18
+max ket sp index length : 19440
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 909 milliseconds
+Time taken by CPU -> GPU transfer part: 444 milliseconds
+for bm_km the LCode of Coulomb is 1001, time in milliseconds: 0.09421 ms
+Time taken by GPU -> CPU transfer part: 151 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2373 milliseconds
+Time taken by all of codes: 3727 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Coulomb, N_BLOCKS_PER_WARP 34 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 13160448
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 33
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 34
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 14688
+nTotalSQ: 52641792
+nTotalThreads: 13160448
+oneThreadDenMtrxLen: 37
+nTotalDenMtrxVecSize: 486936576
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 10
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 37
+max global data length  : 1434488832
+max data block length   : 486936576
+max ket sp data length  : 18
+max ket sp index length : 14688
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 921 milliseconds
+Time taken by CPU -> GPU transfer part: 445 milliseconds
+for bm_km the LCode of Coulomb is 1001, time in milliseconds: 0.09011 ms
+Time taken by GPU -> CPU transfer part: 151 milliseconds
+for the current GPU card the free memory is 41821339648 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2387 milliseconds
+Time taken by all of codes: 3755 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Exchange, N_BLOCKS_PER_WARP 137 nSQPerT is 1 nTPerBlock is 896 nTotalSQ is 53028864 nTotalThreads 53028864
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 0 and testing factor is 30
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 137
+nSQPerThread: 1
+nSQPerBlock: 896
+nBlocks: 59184
+nTotalSQ: 53028864
+nTotalThreads: 53028864
+oneThreadDenMtrxLen: 12
+nTotalDenMtrxVecSize: 636346368
+nBraSPDataLen: 954519552
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 12
+max global data length  : 1590865920
+max data block length   : 636346368
+max ket sp data length  : 18
+max ket sp index length : 59184
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1345 milliseconds
+Time taken by CPU -> GPU transfer part: 492 milliseconds
+for bm_km the LCode of Exchange is 1001, time in milliseconds: 0.09216 ms
+Time taken by GPU -> CPU transfer part: 205 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2754 milliseconds
+Time taken by all of codes: 4592 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Exchange, N_BLOCKS_PER_WARP 68 nSQPerT is 2 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 26320896
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 1 and testing factor is 31
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 68
+nSQPerThread: 2
+nSQPerBlock: 1792
+nBlocks: 29376
+nTotalSQ: 52641792
+nTotalThreads: 26320896
+oneThreadDenMtrxLen: 24
+nTotalDenMtrxVecSize: 631701504
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 24
+max global data length  : 1579253760
+max data block length   : 631701504
+max ket sp data length  : 18
+max ket sp index length : 29376
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1319 milliseconds
+Time taken by CPU -> GPU transfer part: 488 milliseconds
+for bm_km the LCode of Exchange is 1001, time in milliseconds: 0.09216 ms
+Time taken by GPU -> CPU transfer part: 202 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2718 milliseconds
+Time taken by all of codes: 4526 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Exchange, N_BLOCKS_PER_WARP 45 nSQPerT is 3 nTPerBlock is 896 nTotalSQ is 52254720 nTotalThreads 17418240
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 2 and testing factor is 32
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 45
+nSQPerThread: 3
+nSQPerBlock: 2688
+nBlocks: 19440
+nTotalSQ: 52254720
+nTotalThreads: 17418240
+oneThreadDenMtrxLen: 36
+nTotalDenMtrxVecSize: 627056640
+nBraSPDataLen: 940584960
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 36
+max global data length  : 1567641600
+max data block length   : 627056640
+max ket sp data length  : 18
+max ket sp index length : 19440
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1327 milliseconds
+Time taken by CPU -> GPU transfer part: 486 milliseconds
+for bm_km the LCode of Exchange is 1001, time in milliseconds: 0.09933 ms
+Time taken by GPU -> CPU transfer part: 197 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2710 milliseconds
+Time taken by all of codes: 4524 milliseconds
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bm_km Exchange, N_BLOCKS_PER_WARP 34 nSQPerT is 4 nTPerBlock is 896 nTotalSQ is 52641792 nTotalThreads 13160448
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+testing case: 3 and testing factor is 33
+the base number N_BLOCKS_PER_WARP0: 137
+number of cycles that each thread is going to do: 34
+nSQPerThread: 4
+nSQPerBlock: 3584
+nBlocks: 14688
+nTotalSQ: 52641792
+nTotalThreads: 13160448
+oneThreadDenMtrxLen: 48
+nTotalDenMtrxVecSize: 631701504
+nBraSPDataLen: 947552256
+oneSQTempDataLen: 0, and the totalSQTempDataLen: 0
+total global memory size in GB is 11
+//////////////////////////////////////////////////////////////
+//                NVGPUCompTaskGInts4DTest Data Print       //
+//////////////////////////////////////////////////////////////
+number of ket sp        : 0
+number of shell quartets: 0
+number of GPU batches   : 0
+bra np2                 : 4
+ket np2                 : 4
+nThreadsPerBlock        : 896
+single bra sp data block: 18
+single ket sp data block: 18
+single SQ comp space    : 0
+one thread denMtrx Block: 48
+max global data length  : 1579253760
+max data block length   : 631701504
+max ket sp data length  : 18
+max ket sp index length : 14688
+for the current GPU card the free memory is 41848602624 byte and total is 42298834944 byte
+Time taken by CPU part: 1350 milliseconds
+Time taken by CPU -> GPU transfer part: 490 milliseconds
+for bm_km the LCode of Exchange is 1001, time in milliseconds: 0.10854 ms
+Time taken by GPU -> CPU transfer part: 198 milliseconds
+for the current GPU card the free memory is 41817145344 byte and total is 42298834944 byte
+Time taken by GPU -> CPU transfer + free GPU memory: 2735 milliseconds
+Time taken by all of codes: 4576 milliseconds

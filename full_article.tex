@@ -148,11 +148,10 @@ functions with angular momentum higher than D.
 %
 % with integral or shell quartet?
 %
-% general strategy (TLP or ILP)?
+% general strategy (TLP or ILP)? How we really do it?
+% choose thread/block size and unrolling.
 %
 % shared memory bank conflict
-%
-% choose thread/block size
 %
 % no use of local storage, maximumly using the register/L1
 %
@@ -161,11 +160,27 @@ functions with angular momentum higher than D.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{GPU implementation of four-centers integrals}
+\section{GPU implementation of four-center integrals}
 
-For the ERIs in \ref{eq:1} the traditional way on CPU is to compute all of integrals together in the same shell quartet. For example the shell quartet $(PP|PP)$ is composed by four $P$ shells and it consists of 81 ERIs. The benefit to compute ERIs through the shell quartet is to save FLOPS since different ERIs in the same shell quartet may share the intermediate results during the integral computation. 
+For the ERIs in \ref{eq:1} the traditional way on CPU is to compute all of integrals together in the same shell quartet. For example the shell quartet $(PP|PP)$ is composed by four $P$ shells and it consists of 81 ERIs. The benefit to compute ERIs through the shell quartet is to save FLOPS since different ERIs in the same shell quartet may share the intermediate results during the integral computation. For GPU implementation because of the limitted resource of register and L1 cache, earier implementation of four-center integrals were generally computed based on ERI (ref), however recently as the integrals implementation goes to higher momentum such as F etc. the available GPU implementations are more based on shell quartets(ref). From the recent development path for GPU, the computing unit has larger resources as we discussed above; hence in the long run we think the shell quartet GPU implementation will probably become the mainstream for future GPU computation in quantum chemistry. In this paper our GPU implementation are also based on shell quartets (ref), and our current implementation only involves S and P shells.
 
-For GPU implementation because of the limitted resource of register and L1 cache  
+Thread level parallelism (TLP) and instruction level parallelism (ILP) are two common strategies for GPU implementation. TLP concentrates on hiding the latency by spawning large number of threads. ILP focuses on improving the instruction set utilization rate, and one of the useful techanque for ILP is the loop unrolling. We believe a good GPU implementation for computing the ERIs come from the compromise of the TLP and ILP. Take the the GPU implementation on cuda as an example, for the shell quartets involving the low angular momentum S and P it's possible to put several shell quartets together inside one kernel function, therefore to use the loop
+unrolling increases the ILP, and also enhances the global memory loading efficiency. However with the larger number of register being used the number of warps per block is getting smaller(less threads per block), hence the high lentency may not be able to cover dynamically. Is there a compromise point to achieve the best optimization? To explore the possibility we use $(SS|SS)$ integral with one contraction degree as an example. 
+
+\begin{table}
+\caption{{This is a table. Tables should be self-contained and complement, but not duplicate, information contained in the text. They should be not be provided as images. Legends should be concise but comprehensive -- the table, legend and footnotes must be understandable without reference to the text.}}
+\begin{tabular}{lccrr}
+\hline
+\textbf{Variables} & \textbf{JKL\footnote{Just Keep Laughing} ($\boldsymbol{n=30}$)} & \textbf{Control ($\boldsymbol{n=40}$)} & \textbf{MN\footnote{Merry Nose}} & \textbf{$\boldsymbol t$ (68)}\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+Age at testing & 38 & 58 & 504.48 & 58 ms\\
+\hline  
+\end{tabular}
+\end{table}
 
 
 \subsection{Second Level Heading}
@@ -203,20 +218,7 @@ Measurements should be given in SI or SI-derived units.\selectlanguage{english}
 
 
 Chemical substances should be referred to by the generic name only. Trade names should not be used. Drugs should be referred to by their generic names. If proprietary drugs have been used in the study, refer to these by their generic name, mentioning the proprietary name, and the name and location of the manufacturer, in parentheses.\selectlanguage{english}
-\begin{table}
-\caption{{This is a table. Tables should be self-contained and complement, but not duplicate, information contained in the text. They should be not be provided as images. Legends should be concise but comprehensive -- the table, legend and footnotes must be understandable without reference to the text.}}
-\begin{tabular}{lccrr}
-\hline
-\textbf{Variables} & \textbf{JKL\footnote{Just Keep Laughing} ($\boldsymbol{n=30}$)} & \textbf{Control ($\boldsymbol{n=40}$)} & \textbf{MN\footnote{Merry Nose}} & \textbf{$\boldsymbol t$ (68)}\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-Age at testing & 38 & 58 & 504.48 & 58 ms\\
-\hline  
-\end{tabular}
-\end{table}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
@@ -251,9 +253,8 @@ Acknowledgements should include contributions from anyone who does not meet the 
 \section*{Conflict of interest}
 You may be asked to provide a conflict of interest statement during the submission process. Please check the journal's author guidelines for details on what to include in this section. Please ensure you liaise with all co-authors to confirm agreement with the final statement.
 
-\selectlanguage{english}
-\bibliography{bibliography/converted_to_latex.bib%
-}
+%\selectlanguage{english}
+\bibliography{bibliography/ref.bib}
 
 \end{document}
 
